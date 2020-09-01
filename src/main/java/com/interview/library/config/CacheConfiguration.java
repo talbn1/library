@@ -48,6 +48,8 @@ public class CacheConfiguration {
             createCache(cm, com.interview.library.domain.User.class.getName());
             createCache(cm, com.interview.library.domain.Authority.class.getName());
             createCache(cm, com.interview.library.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.interview.library.domain.Author.class.getName());
+            createCache(cm, com.interview.library.domain.Book.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
